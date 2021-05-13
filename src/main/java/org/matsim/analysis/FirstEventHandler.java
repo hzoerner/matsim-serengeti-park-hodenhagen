@@ -12,6 +12,8 @@ import java.util.Map;
 
 public class FirstEventHandler implements ActivityEndEventHandler, ActivityStartEventHandler {
 
+    private int dummy = 0;
+
     private final Map<Id<Person>,Double> personToStartTime = new HashMap<>();
 
     @Override
